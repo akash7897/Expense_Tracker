@@ -23,20 +23,14 @@ A simple yet stylish web-based expense tracker built with **Python Flask**, **HT
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of login, dashboard, and add expense page (optional)
-
----
-
 ## 🔧 Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/akash7897/expense-tracker.git
 cd expense-tracker
 
-# 2. Create virtual environment (optional but recommended)
+# 2. Create virtual environment
 python -m venv venv
 venv\Scripts\activate  # On Windows
 source venv/bin/activate  # On Linux/Mac
