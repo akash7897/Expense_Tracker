@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.card, .table-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.form-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+input, select, button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    flex: 1 1 200px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.summary-box {
+    flex: 1 1 30%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.income {
+    background-color: #27ae60;
+}
+
+.expense {
+    background-color: #c0392b;
+}
+
+.balance {
+    background-color: #8e44ad;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #2980b9;
+    color: white;
+}
+
+.income-row {
+    background-color: #eafaf1;
+}
+
+.expense-row {
+    background-color: #fdecea;
+}
+
+@media screen and (max-width: 768px) {
+    .form-grid {
+        flex-direction: column;
+    }
+
+    .summary {
+        flex-direction: column;
+    }
+}
